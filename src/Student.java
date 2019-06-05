@@ -45,8 +45,12 @@ public class Student {
         return feesPaid;
     }
 
+    /** Keep adding amount to feesPaid
+     *
+     * @param feesPaid fees that the student has paid
+     */
     public void setFeesPaid(int feesPaid) {
-        this.feesPaid = feesPaid;
+        this.feesPaid += feesPaid;
     }
 
     public int getFeesTotal() {
