@@ -25,6 +25,14 @@ public class Student {
         this.feesTotal = 30000;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }
